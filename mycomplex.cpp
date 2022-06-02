@@ -27,7 +27,7 @@ Complex::operator double()
 {
     return abs();
 }
-    double Complex::abs()
+double Complex::abs()
 {
     return sqrt (Re * Re + Im * Im);
 }
